@@ -1,5 +1,3 @@
-
-
 class SingletonMeta(type):
     _instances = {}
 
@@ -11,7 +9,6 @@ class SingletonMeta(type):
 
 class MyClass(metaclass=SingletonMeta):
     pass
-
 
 
 if __name__ == "__main__":
