@@ -23,3 +23,8 @@ The client does not have direct access to the details of object creation and com
 
 # Factory Method Pattern
 The Factory Method design pattern is essentially a creational pattern that provides an interface for creating objects with different types in subclasses. In this pattern, we have abstract product, concrete product, abstract creator, and concrete creator. It also enables us to adhere to the open/closed principle of SOLID.
+
+
+
+# Abstract Factory Patterbn
+The Abstract Factory design pattern is a creational pattern developed to manage the creation of objects. This pattern allows you to create a group of related objects without the need to instantiate multiple classes. It is typically used when the client is unaware of the exact type of object it needs.
