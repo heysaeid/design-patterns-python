@@ -1,49 +1,44 @@
 from abc import ABC, abstractmethod
 
-
+# Abstract Product
 class Animal(ABC):
-
     @abstractmethod
     def speak(self):
         pass
 
-
+# Concrete Products
 class Dog(Animal):
-
     def speak(self):
         return "Woof!"
 
-
 class Cat(Animal):
-
     def speak(self):
         return "Meow!"
 
+class Parrot(Animal):
+    def speak(self):
+        return "Squawk!"
 
-class AnimalFactory(ABC):
-
+# Abstract Creator
+class AnimalCreator(ABC):
     @abstractmethod
     def create_animal(self):
         pass
 
-
-class DogFactory(AnimalFactory):
-
+# Concrete Creators
+class DogCreator(AnimalCreator):
     def create_animal(self):
         return Dog()
 
-
-class CatFactory(AnimalFactory):
-
+class CatCreator(AnimalCreator):
     def create_animal(self):
         return Cat()
 
+class ParrotCreator(AnimalCreator):
+    def create_animal(self):
+        return Parrot()
 
-if __name__ == "__main__":
-    dog_factory = DogFactory()
-    dog = dog_factory.create_animal()
-    print(dog.speak())
-
-    cat_factory = CatFactory()
-    cat = cat_factory.create_animal()
-    print(cat.speak())
+# Client Code
+parrot_creator = ParrotCreator()
+parrot = parrot_creator.create_animal()
+print(parrot.speak())  # Squawk!

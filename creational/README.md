@@ -21,7 +21,5 @@ The client does not have direct access to the details of object creation and com
 
 
 
-# Factory Method
-The Factory Method pattern is a creational design pattern that provides an interface for creating objects, but allows subclasses to decide which class to instantiate. This allows the creation of objects to be decoupled from their usage, so that the code that uses the objects does not need to know the specifics of how they are created.
-
-The Factory Method pattern is useful when you need to create objects based on some input or condition. By delegating the creation of objects to a factory class or method, you can keep the creation logic separate from the rest of the code, which makes the code easier to maintain and test.
+# Factory Method Pattern
+The Factory Method design pattern is essentially a creational pattern that provides an interface for creating objects with different types in subclasses. In this pattern, we have abstract product, concrete product, abstract creator, and concrete creator. It also enables us to adhere to the open/closed principle of SOLID.

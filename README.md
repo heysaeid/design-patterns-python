@@ -13,5 +13,6 @@ In software engineering, a design pattern is a general repeatable solution to a 
 
 | Creational                        | Description                   |
 | -------------                     |:-------------:                |
-| Singleton                         | A Singleton pattern in python is a design pattern that allows you to create just one instance of a class, throughout the lifetime of a program                 |
-| Factory Method                    | The Factory Method pattern provides an interface for creating objects, but allows subclasses to decide which class to instantiate.
+| Singleton Pattern                         | A Singleton pattern in python is a design pattern that allows you to create just one instance of a class, throughout the lifetime of a program                 |
+| Simple Factory Pattern                             | Simple Factory Design provides a centralized mechanism for creating objects, encapsulating the instantiation logic in a separate factory class, allowing clients to create objects without specifying their concrete types directly.
+| Factory Method Pattern                             | Factory Method Pattern defines an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created, promoting flexibility and extensibility.
