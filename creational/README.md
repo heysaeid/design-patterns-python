@@ -28,3 +28,8 @@ The Factory Method design pattern is essentially a creational pattern that provi
 
 # Abstract Factory Patterbn
 The Abstract Factory design pattern is a creational pattern developed to manage the creation of objects. This pattern allows you to create a group of related objects without the need to instantiate multiple classes. It is typically used when the client is unaware of the exact type of object it needs.
+
+
+
+# Builder Pattern
+The Builder Pattern is a creational design pattern used for step-by-step and flexible construction of complex and composite objects. In this pattern, the construction steps of an object are separated, and a Builder is responsible for creating each step of the object. The Director is also responsible for managing the construction process and determining how the construction steps are executed.
