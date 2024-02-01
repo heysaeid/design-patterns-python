@@ -33,3 +33,8 @@ The Abstract Factory design pattern is a creational pattern developed to manage 
 
 # Builder Pattern
 The Builder Pattern is a creational design pattern used for step-by-step and flexible construction of complex and composite objects. In this pattern, the construction steps of an object are separated, and a Builder is responsible for creating each step of the object. The Director is also responsible for managing the construction process and determining how the construction steps are executed.
+
+
+
+# Prototype Pattern
+The Prototype Pattern is a creational design pattern that assists in copying an object as a new instance. This pattern is useful in situations where there is a need to create objects that are similar with slight variations. This way, new instances of a class can be created, and necessary modifications can be applied to the copied instances, instead of creating a new object from scratch each time.
