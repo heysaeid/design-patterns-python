@@ -19,3 +19,9 @@ In software engineering, a design pattern is a general repeatable solution to a 
 | Abstract Factory Pattern                           | The Abstract Factory design pattern is a creational pattern developed to manage the creation of objects. This pattern allows you to create a group of related objects without the need to instantiate multiple classes. It is typically used when the client is unaware of the exact type of object it needs.
 | Builder Pattern                                    | Builder Pattern is a creational design pattern that facilitates the step-by-step construction of complex objects, allowing for flexibility and separation of concerns in the object creation process.
 | Prototype Pattern                                  | Prototype Pattern is a creational design pattern that enables copying an object to create new instances, particularly useful when creating objects with similar structures and making slight modifications without starting from scratch each time.
+
+
+
+| Structural                        | Description                   |
+| -------------                     |:-------------:                |
+| Adapter Pattern                                                   | Adapter Pattern is a structural design pattern that facilitates creating an interface between two incompatible interfaces, enabling them to work together without modifying the original code of the classes involved.
