@@ -25,3 +25,4 @@ In software engineering, a design pattern is a general repeatable solution to a 
 | Structural                        | Description                   |
 | -------------                     |:-------------:                |
 | Adapter Pattern                                                   | Adapter Pattern is a structural design pattern that facilitates creating an interface between two incompatible interfaces, enabling them to work together without modifying the original code of the classes involved.
+| Bridge Pattern                                                   | The Bridge Pattern is a structural design pattern that separates abstraction from implementation using an interface, allowing both to vary independently.
