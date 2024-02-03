@@ -8,7 +8,7 @@ In software engineering, a design pattern is a general repeatable solution to a 
 
 3. Behavioral: These patterns are designed depending on how one class communicates with others.
 
-
+<hr>
 
 
 | Creational                        | Description                   |
